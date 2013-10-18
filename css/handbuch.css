@@ -3,5 +3,22 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 920px;
+}
+
+h1 {
+  font-family: 'Buenard', sans-serif;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+hr {
+  margin-top: 100px;
+}
+
+a, a:hover {
+  color: #333;
 }
