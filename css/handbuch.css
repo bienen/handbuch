@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .container {
@@ -7,18 +8,20 @@ body {
 }
 
 h1 {
-  font-family: 'Buenard', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 100px;
 }
 
 h2 {
   font-size: 14px;
+  font-weight: 300;
 }
 
 hr {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 a, a:hover {
   color: #333;
 }
+
