@@ -25,3 +25,18 @@ a, a:hover {
   color: #333;
 }
 
+#nav.affix {
+  position: static;
+}
+
+@media (min-width: 768px) {
+  .nav .active {
+    font-weight: bold;
+  }
+
+  #nav.affix {
+    position: fixed;
+    top: 0;
+  }
+
+}

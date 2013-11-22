@@ -13,18 +13,18 @@
     <link href="css/handbuch.css" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.png"/>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#nav">
     <div class="container">
 
-<div class="row"><div class="col-lg-8 col-lg-offset-4">
+<div id="header" class="row"><div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4">
 <h1>Handbuch zur Überwindung der Zeit</h1>
 <hr/>
 </div>
 </div>
 
 
-      <div class="row"><div class="col-lg-4">
-      <div class="hidden-print affix" role="complementary">
+      <div class="row"><div class="col-lg-4 col-md-4 col-sm-4">
+      <div id="nav" class="hidden-print">
         <ul class="nav">
           <li>
             <a href="#sinnesausfluege">Sinnesausflüge unternehmen</a>
@@ -41,7 +41,7 @@
         </ul>
       </div>
     </div>
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-8 col-sm-8">
 
 <!-- Inhalt ab hier -->
 
@@ -285,5 +285,14 @@ Katjavoigt(at)gmail.com<br/>
 
 
 </div></div></div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $('#nav').affix({
+    offset: {
+      top: $('#header').height()
+    }
+  });
+</script>
   </body>
 </html>
